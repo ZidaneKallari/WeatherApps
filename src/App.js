@@ -74,19 +74,19 @@ function App() {
             
 
             <div className="pressure">
-            <img src="/public/pressure.svg" />
+            <img src="./assets/pressure.svg" alt="SVG Icon" width="24" height="24"></img>
               {data.main ? <p className="bold">{data.main.pressure} hPa</p> : null}
               <p>Pressure</p>
             </div>
             
             <div className="humidity">
-            <img src="/public/humidity.svg" alt="SVG Icon" width="24" height="24"></img>
+            <img src="./assets/humidity.svg" alt="SVG Icon" width="24" height="24"></img>
               {data.main ? <p className="bold">{data.main.humidity}%</p> : null}
               <p>Humidity</p>
             </div>
 
             <div className="wind">
-            <img src="/public/wind.svg" alt="SVG Icon" width="24" height="24"></img>
+            <img src="./assets/wind.svg" alt="SVG Icon" width="24" height="24"></img>
               {data.wind ? (
                 <p className="bold">{data.wind.speed.toFixed()} MPH</p>
               ) : null}
