@@ -27,7 +27,7 @@ h1 {
   height: 100%;
   position: relative;
   background-color: rgba(0,0,0,0.4);
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .app:before {
@@ -62,7 +62,7 @@ h1 {
 
 .container {
   max-width: 700px;
-  height: 700px;
+  height: 600px;
   margin: auto;
   padding: 0 1rem;
   position: relative;
@@ -75,13 +75,25 @@ h1 {
 .app .top {
   width: 100%;
   margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.2);
 }
-
-.app .description {
+.app .weathericon {
   position: relative;
-  right: -90%;
+  top: -50%;
+  right: -60%;
   transform-origin: 0 0;
-  transform: rotate(269deg);
+  
+  
+}
+.app .description {
+  
+  position: relative;
+  top: -52%;
+  right: -70%;
+  transform-origin: 0 0;
+ 
 }
 
 .app .bottom {
